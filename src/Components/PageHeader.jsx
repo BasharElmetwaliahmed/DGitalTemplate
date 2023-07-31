@@ -7,7 +7,7 @@ function PageHeader({text}) {
     <>
          <LayOut className="bg-primary  min-h-screen ">
         <Header/>
-        <div className='h-80 flex items-center justify-center flex-col  pt-64' data-aos="zoomIn"
+        <div className='min-h-[500px] flex items-center justify-center flex-col  pt-64' data-aos="zoomIn"
      data-aos-anchor-placement="bottom-bottom"     data-aos-delay="50"
     data-aos-duration="1000">
             <h1 className='relative z-50 text-5xl pb-3 font-semibold text-white after:absolute after:bottom-0 after:bg-light
