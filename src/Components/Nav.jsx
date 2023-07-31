@@ -8,7 +8,7 @@ function Nav({scrolled}) {
 
   return (
    <>
-    <nav className={`lg:flex lg:gap-5 gap-28 lg:shadow-none shadow-lg  border-t-2 ${showNav?'translate-y-[calc(-100%-113px)]':''} transition-transform duration-300 lg:justify-center  lg:flex-row 
+    <nav className={`lg:flex lg:gap-5 gap-28 lg:shadow-none shadow-lg lg:translate-y-0  border-t-2 ${showNav?'translate-y-[calc(-100%-113px)]':''} transition-transform duration-300 lg:justify-center  lg:flex-row 
      flex-col lg:relative absolute top-full left-0 text-center lg:bg-transparent lg:border-none bg-white  w-screen lg:z-[100] text-black lg:text-white`
     }>
         {
