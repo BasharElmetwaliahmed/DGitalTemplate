@@ -1,0 +1,102 @@
+.serviceBg{
+  background-image: url(./assets/img/blob-primary.png);
+  transition: all 700ms;
+}
+.service:hover >h4,.service:hover >p{
+  color:white !important;
+}
+.service:hover >.serviceBg{
+    background-image: url(./assets/img/blob-secondary.png);
+
+}
+.service:hover > .serviceBg> i{
+  color: black;
+}
+
+.layout {
+  background-image: url('./assets/img//blob-center.png'),url('./assets/img/blob-top-left.png'),
+  url('./assets/img/blob-top-right.png'),url('./assets/img/blob-bottom-left.png'),url('./assets/img/blob-bottom-right.png');
+  background-repeat: no-repeat;
+  background-position: center center,top  left,top right,bottom left ,bottom right;
+
+}
+
+.footer{
+    background-image: url(./assets/img/map.png);
+}
+.swiper-slide{
+      padding-top: 20px;
+      min-height: 400px !important;
+
+
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  content: "";
+}
+.swiper-button-prev::after,.swiper-button-next::after{
+  content: '';
+  background-color: #F6F4F9;
+  height:70px;
+  width: 70px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  transition: 0.3s all;
+  top:unset;
+}
+.swiper-button-prev::after:hover,.swiper-button-next::after:hover{
+  background-color: #6222CC !important;
+}
+.swiper-button-next,.swiper-button-prev{
+  height: 70px !important;
+  width: 70px !important;
+  bottom: 0px;
+        margin-top: 50px !important;
+
+
+}
+.swiper-button-next{
+  transform: translate(100%,100%) !important;
+}
+.swiper-button-prev{
+  transform: translate(-100%,100%) !important;
+}
+.swiper-button-next{
+ right: 40% !important;
+}
+.swiper-button-prev{
+    left: 40% !important;
+
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+  content: "" !important;
+}
+.swiper-button-next:after:hover, .swiper-rtl .swiper-button-prev:after:hover,.swiper-button-prev:after:hover, .swiper-rtl .swiper-button-next:after:hover{
+  background-color: #6222CC !important;
+}
+
+.swiper-container {
+  width: 480px;
+}
+
+@media screen and (min-width: 375px) {
+  .swiper-container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .swiper-container {
+    width: 992px;
+  }
+}
+.project-item:hover >.img-container >img{
+  transform: scale(1.5);
+}
+.project-item:hover>.img-container > .bg-opacity {
+  opacity: 0.7;
+}
+.project-item > .img-container > .bg-opacity button:hover{
+  color :black;
+  background-color: white;
+}

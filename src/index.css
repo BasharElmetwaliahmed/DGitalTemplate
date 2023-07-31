@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .center-element{
+        @apply flex justify-center items-center
+    }
+    .circle-bg{
+   @apply w-[38px] h-[38px] rounded-full bg-white  center-element transition-all duration-300 shadow hover:shadow-3xl
+      hover:bg-primary cursor-pointer hover:text-white first:duration-300 first:transition-all 
+    }
+    .inputform{
+   @apply     border-2 px-3 py-4 border-[#ced4da] w-full rounded-lg focus:outline focus:outline-primary 
+    }
+}
+
+
+nav a.active{
+    color: #FBA504;
+}
